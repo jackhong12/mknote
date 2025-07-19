@@ -27,4 +27,5 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mkdocs-wikilinks-plugin
+      - run: pip install mkdocs-obsidian-interactive-graph-plugin
       - run: mkdocs gh-deploy --force

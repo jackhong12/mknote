@@ -77,4 +77,17 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/jackhong12
 
+plugins:
+  - obsidian-interactive-graph
+  - search
+  - ezlinks
+
+extra_javascript:
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
+
+extra_css:
+  - assets/stylesheets/interactive_graph.css
+
 copyright: Copyright © 2025 Zhen-Hong (Jack) Huang

@@ -1,4 +1,6 @@
 site_name: My Notes
+site_url: https://jackhong12.github.io/mknote/
+
 theme:
   name: material
   font:

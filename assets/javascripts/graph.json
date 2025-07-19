@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": ":house: Note",
+      "symbolSize": 0,
+      "value": "/mknote/"
+    },
+    {
+      "id": "1",
+      "name": "Read and Write Files",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/IO/"
+    },
+    {
+      "id": "2",
+      "name": "SSH Settings in WSL",
+      "symbolSize": 0,
+      "value": "/mknote/WIN11/WSL/ssh/"
+    },
+    {
+      "id": "3",
+      "name": "Block Example",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/code/"
+    },
+    {
+      "id": "4",
+      "name": "Diagram Example",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/diagram/"
+    }
+  ],
+  "links": []
+}

@@ -28,7 +28,7 @@ string convert(string s, int numRows);
     - Time Complexity: O(n)
     - Space Complexity: O(n)
 
-    ```cpp
+    ```cpp linenums="1"
     string convert(string s, int numRows) {
         if (numRows == 1)
             return s;
@@ -56,7 +56,7 @@ string convert(string s, int numRows);
     - Time Complexity: O(n)
     - Space Complexity: O(1)
 
-    ```cpp
+    ```cpp linenums="1"
     string convert(string s, int numRows) {
         if (numRows == 1)
             return s;
@@ -67,10 +67,8 @@ string convert(string s, int numRows);
             for (int i = row; i < s.size(); i += step) {
                 ans += s[i];
                 int complement = i + step - 2 * row;
-                if (!(row == 0 || row == numRows - 1) && complement < s.size()) {
-
+                if (!(row == 0 || row == numRows - 1) && complement < s.size())
                     ans += s[complement];
-                }
             }
         }
         return ans;

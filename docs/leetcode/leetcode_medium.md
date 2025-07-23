@@ -1,1 +1,1 @@
-# Leetcode Medium Problems
+# Leetcode Medium

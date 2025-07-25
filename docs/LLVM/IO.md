@@ -7,7 +7,8 @@
 int main() {
     std::error_code EC;
 
-    llvm::raw_fd_ostream File("output.txt", EC, raw_fd_ostream::F_Binary);
+    // llvm::raw_fd_ostream File("output.txt", EC, raw_fd_ostream::F_Binary);
+    llvm::raw_fd_ostream File("output.ll", EC, sys::fs::OF_None);
 
     if (EC) {
         llvm::errs() << "Cannot open file: " << EC.message() << "\n";

@@ -32,6 +32,36 @@ You can return the answer in any order.
     }
     ```
 
+=== "Two Pointers"
+    This approach is not applicable for this problem since the array is not sorted. However, if the array were sorted, we could use two pointers to find the two numbers that add up to the target.
+
+    - Time Complexity: O(n log n) for sorting, O(n) for the two-pointer traversal, resulting in O(n log n) overall.
+    - Space Complexity: O(n)
+
+    ```cpp linenums="1"
+    vector<int> twoSum(vector<int>& nums, int target) {
+      vector<pair<int, int>> sortedNums;
+
+      for (int i = 0; i < nums.size(); ++i) {
+        sortedNums.push_back({nums[i], i});
+      }
+
+      sort(sortedNums.begin(), sortedNums.end());
+
+      int L = 0, R = sortedNums.size() - 1;
+      while (L < R) {
+        int sum = sortedNums[L].first + sortedNums[R].first;
+        if (sum == target)
+          return {sortedNums[L].second, sortedNums[R].second};
+        else if (sum < target)
+          ++L;
+        else
+          --R;
+      }
+      return {-1, -1}; // Return -1, -1 if no solution is found
+    }
+    ```
+
 === "Brute Force"
     We can use a brute force approach by checking every pair of elements in the array to see if they add up to the target. This approach has a time complexity of `O(n^2)`.
 
@@ -56,3 +86,4 @@ You can return the answer in any order.
     - [[leetcode_easy|Leetcode Easy]]
     - [[hash|Hash]]
     - [[unordered_map|Unordered Map]]
+    - [[two_pointers|Two Pointers]]

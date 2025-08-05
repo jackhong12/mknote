@@ -29,6 +29,13 @@ ssh -N -f -R <remote-port>:localhost:<local-port> user@remote-host
     - `-N`: Do not execute a remote command.
     - `-f`: Run in the background.
     - `-R`: Specifies that the given port on the remote host is to be forwarded to the local machine.
+    - Redirect the message to a file:
+        ```bash
+        ssh -N -f -v -R <remote-port>:localhost:<local-port> user@remote-host > <file path> 2>&1
+        ```
+        - `-v`: Basic debugging output.
+        - `-vv`: Medium debugging output.
+        - `-vvv`: Detailed debugging output.
 
 ### Turn Off Remote Port Forwarding
 

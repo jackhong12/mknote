@@ -15,4 +15,4 @@ typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='⭐'
 
 You can search icons from [Nerd Fonts](https://www.nerdfonts.com/cheat-sheet).
 
-
+- Suggested font: [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/UbuntuMono.zip)

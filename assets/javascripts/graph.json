@@ -1,0 +1,254 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": ":house: Note",
+      "symbolSize": 0,
+      "value": "/mknote/"
+    },
+    {
+      "id": "1",
+      "name": "Read and Write Files",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/IO/"
+    },
+    {
+      "id": "2",
+      "name": "SSH Settings in WSL",
+      "symbolSize": 0,
+      "value": "/mknote/WIN11/WSL/ssh/"
+    },
+    {
+      "id": "3",
+      "name": "Dynamic Programming",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/dynamic_programming/"
+    },
+    {
+      "id": "4",
+      "name": "Hash",
+      "symbolSize": 4,
+      "value": "/mknote/algorithm/hash/"
+    },
+    {
+      "id": "5",
+      "name": "Manacher's Algorithm",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/manacher_algorithm/"
+    },
+    {
+      "id": "6",
+      "name": "Two Pointers",
+      "symbolSize": 2,
+      "value": "/mknote/algorithm/two_pointers/"
+    },
+    {
+      "id": "7",
+      "name": "Linked List",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/linked_list/"
+    },
+    {
+      "id": "8",
+      "name": "Unordered map",
+      "symbolSize": 2,
+      "value": "/mknote/c%2B%2B/unordered_map/"
+    },
+    {
+      "id": "9",
+      "name": "Vector",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/vector/"
+    },
+    {
+      "id": "10",
+      "name": "1. Two Sum",
+      "symbolSize": 4,
+      "value": "/mknote/leetcode/0001_two_sum/"
+    },
+    {
+      "id": "11",
+      "name": "2. Add Two Numbers",
+      "symbolSize": 2,
+      "value": "/mknote/leetcode/0002_add_two_numbers/"
+    },
+    {
+      "id": "12",
+      "name": "3. Longest Substring Without Repeating Characters",
+      "symbolSize": 2,
+      "value": "/mknote/leetcode/0003_longest_substring_without_repeating_characters/"
+    },
+    {
+      "id": "13",
+      "name": "5. Longest Palindromic Substring",
+      "symbolSize": 4,
+      "value": "/mknote/leetcode/0005_longest_palindromic_substring/"
+    },
+    {
+      "id": "14",
+      "name": "6. Zigzag Conversion",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/0006_zigzag_conversion/"
+    },
+    {
+      "id": "15",
+      "name": "7. Reverse Integer",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/0007_reverse_integer/"
+    },
+    {
+      "id": "16",
+      "name": "Leetcode Easy",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/leetcode_easy/"
+    },
+    {
+      "id": "17",
+      "name": "Leetcode Hard",
+      "symbolSize": 0,
+      "value": "/mknote/leetcode/leetcode_hard/"
+    },
+    {
+      "id": "18",
+      "name": "Leetcode Medium",
+      "symbolSize": 5,
+      "value": "/mknote/leetcode/leetcode_medium/"
+    },
+    {
+      "id": "19",
+      "name": "clang-format",
+      "symbolSize": 1,
+      "value": "/mknote/tools/clang-format/"
+    },
+    {
+      "id": "20",
+      "name": "git",
+      "symbolSize": 1,
+      "value": "/mknote/tools/git/"
+    },
+    {
+      "id": "21",
+      "name": "perf",
+      "symbolSize": 0,
+      "value": "/mknote/tools/perf/"
+    },
+    {
+      "id": "22",
+      "name": "zsh",
+      "symbolSize": 0,
+      "value": "/mknote/tools/zsh/"
+    },
+    {
+      "id": "23",
+      "name": "CMake",
+      "symbolSize": 0,
+      "value": "/mknote/tools/cmake/cmake/"
+    },
+    {
+      "id": "24",
+      "name": "Block Example",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/code/"
+    },
+    {
+      "id": "25",
+      "name": "Diagram Example",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/diagram/"
+    },
+    {
+      "id": "26",
+      "name": "Emoji",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/emoji/"
+    },
+    {
+      "id": "27",
+      "name": "SSH Settings",
+      "symbolSize": 0,
+      "value": "/mknote/tools/ssh/ssh_settings/"
+    },
+    {
+      "id": "28",
+      "name": "Copilot Settings",
+      "symbolSize": 0,
+      "value": "/mknote/tools/vim/copilot/"
+    },
+    {
+      "id": "29",
+      "name": "Vim Settings",
+      "symbolSize": 0,
+      "value": "/mknote/tools/vim/settings/"
+    }
+  ],
+  "links": [
+    {
+      "source": "4",
+      "target": "8"
+    },
+    {
+      "source": "4",
+      "target": "9"
+    },
+    {
+      "source": "10",
+      "target": "16"
+    },
+    {
+      "source": "10",
+      "target": "4"
+    },
+    {
+      "source": "10",
+      "target": "8"
+    },
+    {
+      "source": "10",
+      "target": "6"
+    },
+    {
+      "source": "11",
+      "target": "18"
+    },
+    {
+      "source": "11",
+      "target": "7"
+    },
+    {
+      "source": "12",
+      "target": "18"
+    },
+    {
+      "source": "12",
+      "target": "4"
+    },
+    {
+      "source": "13",
+      "target": "18"
+    },
+    {
+      "source": "13",
+      "target": "3"
+    },
+    {
+      "source": "13",
+      "target": "6"
+    },
+    {
+      "source": "13",
+      "target": "5"
+    },
+    {
+      "source": "14",
+      "target": "18"
+    },
+    {
+      "source": "15",
+      "target": "18"
+    },
+    {
+      "source": "19",
+      "target": "20"
+    }
+  ]
+}

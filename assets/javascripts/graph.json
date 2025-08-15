@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": ":house: Note",
+      "symbolSize": 0,
+      "value": "/mknote/"
+    },
+    {
+      "id": "1",
+      "name": "Read and Write Files",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/IO/"
+    },
+    {
+      "id": "2",
+      "name": "Bitcode Writer",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/bitcodeWriter/"
+    },
+    {
+      "id": "3",
+      "name": "Lazy Link",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/lazy_link/"
+    },
+    {
+      "id": "4",
+      "name": "TODO",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/todo/"
+    },
+    {
+      "id": "5",
+      "name": "Coding Standards",
+      "symbolSize": 1,
+      "value": "/mknote/LLVM/document/coding_standards/"
+    },
+    {
+      "id": "6",
+      "name": "Flow",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/flow/"
+    },
+    {
+      "id": "7",
+      "name": "Document Links",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/links/"
+    },
+    {
+      "id": "8",
+      "name": "Setup Environment",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/setup/"
+    },
+    {
+      "id": "9",
+      "name": "SSH Settings in WSL",
+      "symbolSize": 0,
+      "value": "/mknote/WIN11/WSL/ssh/"
+    },
+    {
+      "id": "10",
+      "name": "Dynamic Programming",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/dynamic_programming/"
+    },
+    {
+      "id": "11",
+      "name": "Hash",
+      "symbolSize": 4,
+      "value": "/mknote/algorithm/hash/"
+    },
+    {
+      "id": "12",
+      "name": "Manacher's Algorithm",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/manacher_algorithm/"
+    },
+    {
+      "id": "13",
+      "name": "Two Pointers",
+      "symbolSize": 2,
+      "value": "/mknote/algorithm/two_pointers/"
+    },
+    {
+      "id": "14",
+      "name": "Linked List",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/linked_list/"
+    },
+    {
+      "id": "15",
+      "name": "Unordered map",
+      "symbolSize": 2,
+      "value": "/mknote/c%2B%2B/unordered_map/"
+    },
+    {
+      "id": "16",
+      "name": "Vector",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/vector/"
+    },
+    {
+      "id": "17",
+      "name": "1. Two Sum",
+      "symbolSize": 4,
+      "value": "/mknote/leetcode/0001_two_sum/"
+    },
+    {
+      "id": "18",
+      "name": "2. Add Two Numbers",
+      "symbolSize": 2,
+      "value": "/mknote/leetcode/0002_add_two_numbers/"
+    },
+    {
+      "id": "19",
+      "name": "3. Longest Substring Without Repeating Characters",
+      "symbolSize": 2,
+      "value": "/mknote/leetcode/0003_longest_substring_without_repeating_characters/"
+    },
+    {
+      "id": "20",
+      "name": "5. Longest Palindromic Substring",
+      "symbolSize": 4,
+      "value": "/mknote/leetcode/0005_longest_palindromic_substring/"
+    },
+    {
+      "id": "21",
+      "name": "6. Zigzag Conversion",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/0006_zigzag_conversion/"
+    },
+    {
+      "id": "22",
+      "name": "7. Reverse Integer",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/0007_reverse_integer/"
+    },
+    {
+      "id": "23",
+      "name": "Leetcode Easy",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/leetcode_easy/"
+    },
+    {
+      "id": "24",
+      "name": "Leetcode Hard",
+      "symbolSize": 0,
+      "value": "/mknote/leetcode/leetcode_hard/"
+    },
+    {
+      "id": "25",
+      "name": "Leetcode Medium",
+      "symbolSize": 5,
+      "value": "/mknote/leetcode/leetcode_medium/"
+    },
+    {
+      "id": "26",
+      "name": "clang-format",
+      "symbolSize": 2,
+      "value": "/mknote/tools/clang-format/"
+    },
+    {
+      "id": "27",
+      "name": "git",
+      "symbolSize": 1,
+      "value": "/mknote/tools/git/"
+    },
+    {
+      "id": "28",
+      "name": "perf",
+      "symbolSize": 0,
+      "value": "/mknote/tools/perf/"
+    },
+    {
+      "id": "29",
+      "name": "zsh",
+      "symbolSize": 0,
+      "value": "/mknote/tools/zsh/"
+    },
+    {
+      "id": "30",
+      "name": "CMake",
+      "symbolSize": 0,
+      "value": "/mknote/tools/cmake/cmake/"
+    },
+    {
+      "id": "31",
+      "name": "Block Example",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/code/"
+    },
+    {
+      "id": "32",
+      "name": "Diagram Example",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/diagram/"
+    },
+    {
+      "id": "33",
+      "name": "Emoji",
+      "symbolSize": 0,
+      "value": "/mknote/tools/mkdocs/emoji/"
+    },
+    {
+      "id": "34",
+      "name": "SSH Settings",
+      "symbolSize": 0,
+      "value": "/mknote/tools/ssh/ssh_settings/"
+    },
+    {
+      "id": "35",
+      "name": "Copilot Settings",
+      "symbolSize": 0,
+      "value": "/mknote/tools/vim/copilot/"
+    },
+    {
+      "id": "36",
+      "name": "Vim Settings",
+      "symbolSize": 0,
+      "value": "/mknote/tools/vim/settings/"
+    }
+  ],
+  "links": [
+    {
+      "source": "5",
+      "target": "26"
+    },
+    {
+      "source": "11",
+      "target": "15"
+    },
+    {
+      "source": "11",
+      "target": "16"
+    },
+    {
+      "source": "17",
+      "target": "23"
+    },
+    {
+      "source": "17",
+      "target": "11"
+    },
+    {
+      "source": "17",
+      "target": "15"
+    },
+    {
+      "source": "17",
+      "target": "13"
+    },
+    {
+      "source": "18",
+      "target": "25"
+    },
+    {
+      "source": "18",
+      "target": "14"
+    },
+    {
+      "source": "19",
+      "target": "25"
+    },
+    {
+      "source": "19",
+      "target": "11"
+    },
+    {
+      "source": "20",
+      "target": "25"
+    },
+    {
+      "source": "20",
+      "target": "10"
+    },
+    {
+      "source": "20",
+      "target": "13"
+    },
+    {
+      "source": "20",
+      "target": "12"
+    },
+    {
+      "source": "21",
+      "target": "25"
+    },
+    {
+      "source": "22",
+      "target": "25"
+    },
+    {
+      "source": "26",
+      "target": "27"
+    }
+  ]
+}

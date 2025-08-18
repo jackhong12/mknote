@@ -34,3 +34,6 @@
 //   * sqrt(pow(x,y)) -> pow(|x|,y*0.5)
 //
 ```
+
+## First Good Issue
+- https://github.com/KhronosGroup/SPIRV-LLVM-Translator/issues/3180

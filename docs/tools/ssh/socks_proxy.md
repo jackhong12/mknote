@@ -13,4 +13,5 @@ Add the following command to a batch file to open Chrome with the SOCKS proxy:
 
 ```bat title="chrome.bat"
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --proxy-server="socks://127.0.0.1:<port>"
+exit # Close the terminal
 ```

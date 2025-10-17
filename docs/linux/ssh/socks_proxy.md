@@ -15,3 +15,11 @@ Add the following command to a batch file to open Chrome with the SOCKS proxy:
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --proxy-server="socks://127.0.0.1:<port>"
 exit # Close the terminal
 ```
+
+```bat title="edge.bat"
+# kill existing Edge instances
+taskkill /IM msedge.exe /F
+
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --proxy-server="socks://127.0.0.1:<port>"
+exit # Close the terminal
+```

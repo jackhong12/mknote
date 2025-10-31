@@ -1,0 +1,354 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": ":house: Note",
+      "symbolSize": 0,
+      "value": "/mknote/"
+    },
+    {
+      "id": "1",
+      "name": "Read and Write Files",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/IO/"
+    },
+    {
+      "id": "2",
+      "name": "Bitcode Writer",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/bitcodeWriter/"
+    },
+    {
+      "id": "3",
+      "name": "Lazy Link",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/lazy_link/"
+    },
+    {
+      "id": "4",
+      "name": "TODO",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/todo/"
+    },
+    {
+      "id": "5",
+      "name": "Coding Standards",
+      "symbolSize": 1,
+      "value": "/mknote/LLVM/document/coding_standards/"
+    },
+    {
+      "id": "6",
+      "name": "Flow",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/flow/"
+    },
+    {
+      "id": "7",
+      "name": "Document Links",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/links/"
+    },
+    {
+      "id": "8",
+      "name": "Setup Environment",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/setup/"
+    },
+    {
+      "id": "9",
+      "name": "Dynamic Programming",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/dynamic_programming/"
+    },
+    {
+      "id": "10",
+      "name": "Hash",
+      "symbolSize": 4,
+      "value": "/mknote/algorithm/hash/"
+    },
+    {
+      "id": "11",
+      "name": "Manacher's Algorithm",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/manacher_algorithm/"
+    },
+    {
+      "id": "12",
+      "name": "Two Pointers",
+      "symbolSize": 2,
+      "value": "/mknote/algorithm/two_pointers/"
+    },
+    {
+      "id": "13",
+      "name": "Linked List",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/linked_list/"
+    },
+    {
+      "id": "14",
+      "name": "Unordered map",
+      "symbolSize": 2,
+      "value": "/mknote/c%2B%2B/unordered_map/"
+    },
+    {
+      "id": "15",
+      "name": "Vector",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/vector/"
+    },
+    {
+      "id": "16",
+      "name": "1. Two Sum",
+      "symbolSize": 4,
+      "value": "/mknote/leetcode/0001_two_sum/"
+    },
+    {
+      "id": "17",
+      "name": "2. Add Two Numbers",
+      "symbolSize": 2,
+      "value": "/mknote/leetcode/0002_add_two_numbers/"
+    },
+    {
+      "id": "18",
+      "name": "3. Longest Substring Without Repeating Characters",
+      "symbolSize": 2,
+      "value": "/mknote/leetcode/0003_longest_substring_without_repeating_characters/"
+    },
+    {
+      "id": "19",
+      "name": "5. Longest Palindromic Substring",
+      "symbolSize": 4,
+      "value": "/mknote/leetcode/0005_longest_palindromic_substring/"
+    },
+    {
+      "id": "20",
+      "name": "6. Zigzag Conversion",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/0006_zigzag_conversion/"
+    },
+    {
+      "id": "21",
+      "name": "7. Reverse Integer",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/0007_reverse_integer/"
+    },
+    {
+      "id": "22",
+      "name": "Leetcode Easy",
+      "symbolSize": 1,
+      "value": "/mknote/leetcode/leetcode_easy/"
+    },
+    {
+      "id": "23",
+      "name": "Leetcode Hard",
+      "symbolSize": 0,
+      "value": "/mknote/leetcode/leetcode_hard/"
+    },
+    {
+      "id": "24",
+      "name": "Leetcode Medium",
+      "symbolSize": 5,
+      "value": "/mknote/leetcode/leetcode_medium/"
+    },
+    {
+      "id": "25",
+      "name": "clang-format",
+      "symbolSize": 2,
+      "value": "/mknote/linux/clang-format/"
+    },
+    {
+      "id": "26",
+      "name": "Cmake",
+      "symbolSize": 0,
+      "value": "/mknote/linux/cmake/"
+    },
+    {
+      "id": "27",
+      "name": "GNU GCC",
+      "symbolSize": 0,
+      "value": "/mknote/linux/gcc/"
+    },
+    {
+      "id": "28",
+      "name": "perf",
+      "symbolSize": 0,
+      "value": "/mknote/linux/perf/"
+    },
+    {
+      "id": "29",
+      "name": "Tmux Settings",
+      "symbolSize": 0,
+      "value": "/mknote/linux/tmux/"
+    },
+    {
+      "id": "30",
+      "name": "zsh",
+      "symbolSize": 0,
+      "value": "/mknote/linux/zsh/"
+    },
+    {
+      "id": "31",
+      "name": "CMake",
+      "symbolSize": 0,
+      "value": "/mknote/linux/cmake/cmake/"
+    },
+    {
+      "id": "32",
+      "name": "base",
+      "symbolSize": 1,
+      "value": "/mknote/linux/git/base/"
+    },
+    {
+      "id": "33",
+      "name": "remote",
+      "symbolSize": 0,
+      "value": "/mknote/linux/git/remote/"
+    },
+    {
+      "id": "34",
+      "name": "Block Example",
+      "symbolSize": 0,
+      "value": "/mknote/linux/mkdocs/code/"
+    },
+    {
+      "id": "35",
+      "name": "Diagram Example",
+      "symbolSize": 0,
+      "value": "/mknote/linux/mkdocs/diagram/"
+    },
+    {
+      "id": "36",
+      "name": "Emoji",
+      "symbolSize": 0,
+      "value": "/mknote/linux/mkdocs/emoji/"
+    },
+    {
+      "id": "37",
+      "name": "SOCKS Proxy",
+      "symbolSize": 0,
+      "value": "/mknote/linux/ssh/socks_proxy/"
+    },
+    {
+      "id": "38",
+      "name": "SSH Settings",
+      "symbolSize": 0,
+      "value": "/mknote/linux/ssh/ssh_settings/"
+    },
+    {
+      "id": "39",
+      "name": "Copilot Settings",
+      "symbolSize": 0,
+      "value": "/mknote/linux/vim/copilot/"
+    },
+    {
+      "id": "40",
+      "name": "Vim Settings",
+      "symbolSize": 0,
+      "value": "/mknote/linux/vim/settings/"
+    },
+    {
+      "id": "41",
+      "name": "SSH Settings for Windows",
+      "symbolSize": 0,
+      "value": "/mknote/windows/ssh/"
+    },
+    {
+      "id": "42",
+      "name": "Sysinternals",
+      "symbolSize": 0,
+      "value": "/mknote/windows/sysinternals/"
+    },
+    {
+      "id": "43",
+      "name": "Visual Studio",
+      "symbolSize": 0,
+      "value": "/mknote/windows/vs/"
+    },
+    {
+      "id": "44",
+      "name": "WinDbg",
+      "symbolSize": 0,
+      "value": "/mknote/windows/windbg/"
+    },
+    {
+      "id": "45",
+      "name": "WSL",
+      "symbolSize": 0,
+      "value": "/mknote/windows/wsl/"
+    }
+  ],
+  "links": [
+    {
+      "source": "5",
+      "target": "25"
+    },
+    {
+      "source": "10",
+      "target": "14"
+    },
+    {
+      "source": "10",
+      "target": "15"
+    },
+    {
+      "source": "16",
+      "target": "22"
+    },
+    {
+      "source": "16",
+      "target": "10"
+    },
+    {
+      "source": "16",
+      "target": "14"
+    },
+    {
+      "source": "16",
+      "target": "12"
+    },
+    {
+      "source": "17",
+      "target": "24"
+    },
+    {
+      "source": "17",
+      "target": "13"
+    },
+    {
+      "source": "18",
+      "target": "24"
+    },
+    {
+      "source": "18",
+      "target": "10"
+    },
+    {
+      "source": "19",
+      "target": "24"
+    },
+    {
+      "source": "19",
+      "target": "9"
+    },
+    {
+      "source": "19",
+      "target": "12"
+    },
+    {
+      "source": "19",
+      "target": "11"
+    },
+    {
+      "source": "20",
+      "target": "24"
+    },
+    {
+      "source": "21",
+      "target": "24"
+    },
+    {
+      "source": "25",
+      "target": "32"
+    }
+  ]
+}

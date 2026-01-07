@@ -14,6 +14,44 @@ There are two ways to attach WinDbg to a running process:
 1. File -> Attach to a Process -> Select the desired process.
 2. Press `F6` and select the desired process from the list.
 
+## Breakpoints
+
+- Add a breakpoint at a specific address:
+    ```bash
+    # Add a breakpoint at a specific function (e.g., function in module):
+    bp <exe>!<function>
+    bp <module>!<function>
+    bp <function>
+
+    # Continue execution:
+    g
+    ```
+- Remove breakpoints:
+    ```bash
+    # Remove a specific breakpoint (e.g., breakpoint number 1):
+    bc 1
+
+    # Remove all breakpoints:
+    bc *
+    ```
+
+- List all breakpoints:
+    ```
+    bl
+    ```
+
+## Module Info
+- List all loaded modules:
+
+    ```
+    lm
+    ```
+- Show detailed information about a specific module:
+
+    ```
+    !lmi <module>
+    ```
+
 ## Threads
 
 - Show all threads in the process:

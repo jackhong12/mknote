@@ -65,3 +65,10 @@ There are two ways to attach WinDbg to a running process:
     ```
     ~3s
     ```
+
+## Source Files
+Show source file information about a function:
+```
+ln <function>
+```
+

@@ -2,4 +2,4 @@
 
 source venv/bin/activate
 
-mkdocs serve
+mkdocs serve > `pwd`/.log 2>&1 &

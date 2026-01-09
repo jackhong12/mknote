@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MKNOTE_PATH=PATH_TO_MKNOTE
+
+pushd $MKNOTE_PATH
+./bin/run
+popd

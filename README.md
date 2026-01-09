@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ## Enable the server
 
-```bash 
+```bash
 source venv/bin/activate
 mkdocs serve
 ```

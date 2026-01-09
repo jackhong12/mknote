@@ -73,8 +73,17 @@ There are two ways to attach WinDbg to a running process:
     ```
 
 ## Source Files
-Show source file information about a function:
-```
-ln <function>
-```
+- Show source file information about a function:
+    ```
+    ln <function>
+    ```
+
+Show line nubmers:
+    ```
+    # Enable source line numbers
+    .lines -e
+
+    # Show called stack
+    kP
+    ```
 

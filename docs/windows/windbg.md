@@ -2,8 +2,14 @@
 
 ## Command Line
 How to launch WinDbg from the command line:
+
+- Maunal installation from Windows SDK:
 ```powershell title="Command to launch WinDbg"
 & "C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\windbg.exe"
+```
+
+- Installation from Microsoft Store:
+```powershell title="Command to launch WinDbg"
 & "C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2506.12002.0_x64__8wekyb3d8bbwe\DbgX.Shell.exe"
 ```
 

@@ -1,16 +1,25 @@
 #!/bin/bash
 
+info () {
+  printf "\033[0;32m$@\033[0m\n"
+}
+
 if [ ! -d "venv" ]; then
-    echo "Install venv..."
+    info "Install venv..."
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-    echo "[Done] venv"
+    info "[Done] venv"
 fi
 
+# ignore mknote-activate in git
+info "Ignore bin/mknote-activate in git ..."
+git update-index --assume-unchanged bin/mknote-activate
+info "[Done] ignore bin/mknote-activate in git"
+
 # link mknote-activate to ~/.bin
-echo "Link mknote-activate to ~/.bin ..."
+info "Link mknote-activate to ~/.bin ..."
 mkdir -p ~/.bin
 sed -i "s|PATH_TO_MKNOTE|`pwd`|g" bin/mknote-activate
 ln -sf `pwd`/bin/mknote-activate ~/.bin
-echo "[Done] link mknote-activate to ~/.bin"
+info "[Done] link mknote-activate to ~/.bin"

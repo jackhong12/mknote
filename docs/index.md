@@ -3,6 +3,7 @@
 
 ## Main Pages
 - [[leetcode|Leetcode]]
+- [[linux|Linux]]
 
 ## Useful Links
 ??? Note "MkDocs Note"

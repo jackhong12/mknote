@@ -4,6 +4,7 @@
 ## Main Pages
 - [[leetcode|Leetcode]]
 - [[linux|Linux]]
+- [[windows|Windows]]
 
 ## Useful Links
 ??? Note "MkDocs Note"

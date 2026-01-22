@@ -1,10 +1,4 @@
 # :house: Index
-aaabcde
-ffff
-eeeeee
-ddd
-
-
 ## Main Pages
 - [[leetcode|Leetcode]]
 - [[linux|Linux]]

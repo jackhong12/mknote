@@ -1,4 +1,8 @@
 # :house: Index
+aaabcde
+ffff
+eeeeee
+ddd
 
 
 ## Main Pages
@@ -8,9 +12,9 @@
 
 ## Useful Links
 ??? Note "MkDocs Note"
-    - [Block Example](./linux/mkdocs/code.md)
-    - [Diagram Example](./linux/mkdocs/diagram.md)
-    - [Emoji Example](./linux/mkdocs/emoji.md)
+    - [[mkdocs_code|Block Example]]
+    - [[mkdocs_diagram|Diagram Example]]
+    - [[mkdocs_emoji|Emoji Example]]
 
 ??? Note "Debugger"
     - [[gdb|GDB]]

@@ -117,3 +117,34 @@ Collapsible admonitions can be created using the `???`:
         This is a collapsible info admonition.
     ```
 
+### Icons in Admonitions
+note:
+??? note "note"
+
+info:
+??? info "info"
+
+tip:
+??? tip "tip"
+
+success:
+??? success "success"
+
+question:
+??? question "question"
+
+warning:
+??? warning "warning"
+
+failure:
+??? failure "failure"
+
+danger:
+??? danger "danger"
+
+bug:
+??? bug "bug"
+
+quote:
+??? quote "quote"
+

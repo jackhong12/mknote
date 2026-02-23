@@ -10,3 +10,11 @@
     git checkout -b <new-branch>
     git push -u origin <new-branch>
     ```
+
+??? Note "Edit a remote branch"
+    ```bash
+    git fetch origin <remote-branch>
+    git checkout <remote-branch>
+    # Make changes and commit
+    git push origin <remote-branch>
+    ```

@@ -1,4 +1,4 @@
-# Tmux Settings
+# Tmux
 
 ## Commands
 
@@ -6,8 +6,16 @@
     ```bash
     tmux new-session -d -s <session-name>
     ```
+- Rename the name of session:
+    - Command line:
+        ```bash
+        tmux rename-session -t <old-session-name> <new-session-name>
+        ```
+    - Shortcut:
+        - Press `Ctrl + b` then `$` and type the new name of session
 
-## .oh-my-tmux
+
+## Tmux configuration
 - Change the icon in the left status bar
   - Open `~/.tmux.conf.local`
   - Find the line that starts with `tmux_conf_theme_status_left`

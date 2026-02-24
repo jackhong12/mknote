@@ -1,10 +1,15 @@
 # LLVM Project
 
 ## Build Code
-```bash
-cmake -G Ninja -DLLVM_ENABLE_PROJECTS="clang" -DCMAKE_BUILD_TYPE="Debug" <path-to-llvm-project>/llvm
-ninja -j$(nproc)
-```
+1. Configure
+    ```bash
+    cmake -G Ninja -DLLVM_ENABLE_PROJECTS="clang" -DCMAKE_BUILD_TYPE="Debug" -DLLVM_USE_LINKER=lld <path-to-llvm-project>/llvm
+    ```
+
+2. Build code
+    ```bash
+    ninja -j$(nproc)
+    ```
 
 
 ## Issue
@@ -26,7 +31,7 @@ ninja -j$(nproc)
 
 ### Warnings
 
-??? Tip "OnDiskGraphDB"
+??? Success "Pull #[180481](https://github.com/llvm/llvm-project/pull/180481): [llvm/CAS] Handle switch default to fix missing return warning"
     ```cpp title="OnDiskGraphDB.cpp" linenums="1421"
     OnDiskGraphDB::FileBackedData
     StandaloneDataInMemory::getInternalFileBackedObjectData(

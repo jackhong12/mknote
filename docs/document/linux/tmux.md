@@ -13,6 +13,13 @@
         ```
     - Shortcut:
         - Press `Ctrl + b` then `$` and type the new name of session
+- Rename the name of window:
+    - Command line:
+        ```bash
+        tmux rename-window -t <old-window-name> <new-window-name>
+        ```
+    - Shortcut:
+        - Press `Ctrl + b` then `,` and type the new name of window
 
 
 ## Tmux configuration

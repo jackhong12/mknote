@@ -18,3 +18,13 @@
     # Make changes and commit
     git push origin <remote-branch>
     ```
+
+??? Note "Rename a branch name"
+    - Rename the current branch:
+        ```bash
+        git branch -m <new-branch-name>
+        ```
+    - Rename a specific branch:
+        ```bash
+        git branch -m <old-branch-name> <new-branch-name>
+        ```

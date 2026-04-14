@@ -28,3 +28,10 @@
         ```bash
         git branch -m <old-branch-name> <new-branch-name>
         ```
+
+??? Note "Drop a commit"
+    ```bash
+    git rebase -i HEAD~<number-of-commits>
+    ```
+
+    - In the interactive rebase editor, change `pick` to `drop` for the commit you want to remove.

@@ -6,6 +6,7 @@ cmake -G Ninja \
     path/to/llvm-project/llvm \
     -DCMAKE_BUILD_TYPE=Debug \
     -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+    -DCLANG_ENABLE_HLSL=ON \
     -DLLVM_USE_LINKER="lld"
 ninja -j$(nproc)
 ```

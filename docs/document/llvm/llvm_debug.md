@@ -1,5 +1,6 @@
 # Debug Tips for LLVM
 
+## Show Debug Output
 To enable debug output in LLVM, you can set the `DEBUG_TYPE` environment
 variable to the desired debug type. For example:
 

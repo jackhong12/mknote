@@ -11,6 +11,9 @@
     ninja -j$(nproc)
     ```
 
+## Note
+- [[llvm_debug.md|LLVM debug tips]]
+
 
 ## Issue
 

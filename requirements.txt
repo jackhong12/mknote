@@ -140,3 +140,4 @@ mkdocs-obsidian-support-plugin
 mkdocs-obsidian-interactive-graph-plugin
 mkdocs-material
 mkdocs-wikilinks-plugin
+Pygments==2.19.2

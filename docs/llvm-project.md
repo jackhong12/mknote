@@ -3,7 +3,12 @@
 ## Build Code
 1. Configure
     ```bash
-    cmake -G Ninja -DLLVM_ENABLE_PROJECTS="clang" -DCMAKE_BUILD_TYPE="Debug" -DLLVM_USE_LINKER=lld <path-to-llvm-project>/llvm
+    cmake \
+        -G Ninja \
+        -DLLVM_ENABLE_PROJECTS="clang" \
+        -DCMAKE_BUILD_TYPE="Debug" \
+        -DLLVM_USE_LINKER=lld \
+        <path-to-llvm-project>/llvm
     ```
 
 2. Build code

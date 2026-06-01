@@ -6,6 +6,11 @@ The Sysinternals Suite is a collection of utilities to help manage, troubleshoot
 
 Download and install the Sysinternals Suite from the official Microsoft [website](https://learn.microsoft.com/en-us/sysinternals/downloads/).
 
+Or install by winget:
+```powershell title="powershell"
+winget install Microsoft.Sysinternals.Suite
+```
+
 ## listdlls
 List all the DLLs loaded into processes.
 

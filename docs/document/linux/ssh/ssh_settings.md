@@ -17,9 +17,15 @@ ssh myserver
 
 ---
 
-## Remote Port Forwarding
+## Local Port Forwarding (-L)
+Forward local port to remote host.
 
-Forward a port from a remote server to your local machine. When you connect to `<remote-port>` on the remote server, it will forward the connection to `<local-port>` on your local machine.
+
+---
+
+## Remote Port Forwarding (-R)
+
+Forward remote port to local host.
 
 ```bash
 ssh -N -f -R <remote-port>:localhost:<local-port> user@remote-host
@@ -50,3 +56,8 @@ Then, use the `kill` command with the PID:
 ```bash
 kill -9 <PID>
 ```
+
+---
+
+## [[socks_proxy|Dynamic Port Forwarding]] (-D)
+Create a SOCKS proxy that forwards traffic through the SSH connection.

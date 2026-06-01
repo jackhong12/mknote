@@ -38,6 +38,26 @@ Enable the port `2222` in Windows Firewall:
 netsh advfirewall firewall add rule name="WSL SSH" dir=in action=allow protocol=TCP localport=2222
 ```
 
+??? note "SSH Port Forwarding Settings"
+    - Show all port forwarding rules with:
+        ```powershell title="powershell"
+        netsh interface portproxy show all
+        ```
+
+        It will show something like this:
+        ```
+        Listen on ipv4:             Connect to ipv4:
+
+        Address         Port        Address         Port
+        --------------- ----------  --------------- ----------
+        0.0.0.0         2222        xxx.xxx.xxx.xxx 22
+        ```
+
+    - Remove the port forwarding rule if needed:
+        ```powershell title="powershell"
+        netsh interface portproxy delete v4tov4 listenport=2222 listenaddress=0.0.0.0
+        ```
+
 ??? note "Firewall Configuration"
     - Show all firewall rules with:
     ```powershell title="powershell"

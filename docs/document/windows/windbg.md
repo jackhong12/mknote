@@ -15,10 +15,14 @@ How to launch WinDbg from the command line:
 
 ## Attach to a Process
 
-There are two ways to attach WinDbg to a running process:
+There are three ways to attach WinDbg to a running process:
 
 1. File -> Attach to a Process -> Select the desired process.
 2. Press `F6` and select the desired process from the list.
+3. Specify the process in the command line:
+    ```powershell title="Command to attach WinDbg to a process"
+    & "windbg.exe" <process name>
+    ```
 
 ## Breakpoints
 

@@ -1,5 +1,15 @@
 # Powershell Settings
 
+## File Path
+- Powershell
+    ```
+    ~\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+    ```
+- Developer Powershell for VS
+    ```
+    ~\Documents\PowerShell\profile.ps1
+    ```
+
 ## Quick Commands
 - Open the current folder:
     ```powershell
@@ -26,9 +36,23 @@ ssh-keygen
     winget install Vim.Vim
     ```
 
-2. Add vim path:
+2. Find the path of vim:
     ```powershell
-    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\Vim\vim82", [EnvironmentVariableTarget]::User)
+    Get-ChildItem "C:\Program Files\Vim" -Recurse -Filter "vim.exe"
+    ```
+
+    It will show something like this:
+    ```
+        Directory: C:\Program Files\Vim\vim92
+
+    Mode                 LastWriteTime         Length Name
+    ----                 -------------         ------ ----
+    -a---           5/25/2026  7:39 AM         209920 vim.exe
+    ```
+
+2. Add vim path. You need to change the path according to the output of the previous command:
+    ```powershell
+    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\Vim\vim92", [EnvironmentVariableTarget]::User)
     ```
 
 ## Oh My Posh

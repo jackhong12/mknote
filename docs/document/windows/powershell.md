@@ -87,9 +87,25 @@ ssh-keygen
         ```powershell
         oh-my-posh init pwsh | Invoke-Expression
 
-        # Better history & completion
-        Import-Module PSReadLine
+        function Clean-Path {
+            $seen = @{}
+            $newPaths = @()
+            foreach ($p in $env:PATH -split ";") {
+                $normalized = $p.Trim().ToLower()
+                if ($normalized -ne "" -and -not $seen.ContainsKey($normalized)) {
+                    $seen[$normalized] = $true
+                    $newPaths += $p.Trim()
+                }
+            }
+            $env:PATH = $newPaths -join ";"
+        }
+
+        Import-Module PSReadLine # Better history & completion
         Set-PSReadLineOption -PredictionSource History
+
+        Clean-Path # Remove duplicate paths from PATH environment variable
+
+        $env:PATH += ";<new path>" # Add new path to PATH environment variable
         ```
 ??? Note "PowerShell Too Old"
     If you get the error, it might be because your PowerShell version is too old. You can check your PowerShell version by running:

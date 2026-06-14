@@ -7,3 +7,4 @@
 - [[windows_ssh|Setting up SSH on Windows]]
 - [[windows_vs|Visual Studio Setting on Windows]]
 - [[powershell|PowerShell Settings]]
+- [[windows_vs_build_tools|Visual Studio Build Tools]]

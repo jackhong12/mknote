@@ -9,6 +9,9 @@
         -DCMAKE_BUILD_TYPE="Debug" \
         -DLLVM_USE_LINKER=lld \
         -DLLVM_ENABLE_ASSERTIONS=ON \
+        -DCMAKE_C_COMPILER=/usr/bin/clang \
+        -DCMAKE_CXX_COMPILER=/usr/bin/clang++ \
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
         <path-to-llvm-project>/llvm
     ```
 

@@ -1,0 +1,584 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": ":house: Index",
+      "symbolSize": 10,
+      "value": "/mknote/"
+    },
+    {
+      "id": "1",
+      "name": "English",
+      "symbolSize": 0,
+      "value": "/mknote/english/"
+    },
+    {
+      "id": "2",
+      "name": "Leetcode",
+      "symbolSize": 7,
+      "value": "/mknote/leetcode/"
+    },
+    {
+      "id": "3",
+      "name": "Linux",
+      "symbolSize": 8,
+      "value": "/mknote/linux/"
+    },
+    {
+      "id": "4",
+      "name": "LLVM Project",
+      "symbolSize": 0,
+      "value": "/mknote/llvm-project/"
+    },
+    {
+      "id": "5",
+      "name": "Windows",
+      "symbolSize": 8,
+      "value": "/mknote/windows/"
+    },
+    {
+      "id": "6",
+      "name": "Read and Write Files",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/IO/"
+    },
+    {
+      "id": "7",
+      "name": "Bitcode Writer",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/bitcodeWriter/"
+    },
+    {
+      "id": "8",
+      "name": "Lazy Link",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/lazy_link/"
+    },
+    {
+      "id": "9",
+      "name": "TODO",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/todo/"
+    },
+    {
+      "id": "10",
+      "name": "Coding Standards",
+      "symbolSize": 1,
+      "value": "/mknote/LLVM/document/coding_standards/"
+    },
+    {
+      "id": "11",
+      "name": "Flow",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/flow/"
+    },
+    {
+      "id": "12",
+      "name": "Document Links",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/links/"
+    },
+    {
+      "id": "13",
+      "name": "Setup Environment",
+      "symbolSize": 0,
+      "value": "/mknote/LLVM/document/setup/"
+    },
+    {
+      "id": "14",
+      "name": "Dynamic Programming",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/dynamic_programming/"
+    },
+    {
+      "id": "15",
+      "name": "Hash",
+      "symbolSize": 4,
+      "value": "/mknote/algorithm/hash/"
+    },
+    {
+      "id": "16",
+      "name": "Manacher's Algorithm",
+      "symbolSize": 1,
+      "value": "/mknote/algorithm/manacher_algorithm/"
+    },
+    {
+      "id": "17",
+      "name": "Two Pointers",
+      "symbolSize": 2,
+      "value": "/mknote/algorithm/two_pointers/"
+    },
+    {
+      "id": "18",
+      "name": "Linked List",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/linked_list/"
+    },
+    {
+      "id": "19",
+      "name": "Unordered map",
+      "symbolSize": 2,
+      "value": "/mknote/c%2B%2B/unordered_map/"
+    },
+    {
+      "id": "20",
+      "name": "Vector",
+      "symbolSize": 1,
+      "value": "/mknote/c%2B%2B/vector/"
+    },
+    {
+      "id": "21",
+      "name": "AI Note",
+      "symbolSize": 1,
+      "value": "/mknote/document/ai_note/"
+    },
+    {
+      "id": "22",
+      "name": "Git",
+      "symbolSize": 3,
+      "value": "/mknote/document/git/"
+    },
+    {
+      "id": "23",
+      "name": "PIKMIN",
+      "symbolSize": 0,
+      "value": "/mknote/document/pikmin/"
+    },
+    {
+      "id": "24",
+      "name": "English Prompt",
+      "symbolSize": 1,
+      "value": "/mknote/document/english/english_prompt/"
+    },
+    {
+      "id": "25",
+      "name": "1. Two Sum",
+      "symbolSize": 5,
+      "value": "/mknote/document/leetcode/0001_two_sum/"
+    },
+    {
+      "id": "26",
+      "name": "2. Add Two Numbers",
+      "symbolSize": 3,
+      "value": "/mknote/document/leetcode/0002_add_two_numbers/"
+    },
+    {
+      "id": "27",
+      "name": "3. Longest Substring Without Repeating Characters",
+      "symbolSize": 3,
+      "value": "/mknote/document/leetcode/0003_longest_substring_without_repeating_characters/"
+    },
+    {
+      "id": "28",
+      "name": "5. Longest Palindromic Substring",
+      "symbolSize": 5,
+      "value": "/mknote/document/leetcode/0005_longest_palindromic_substring/"
+    },
+    {
+      "id": "29",
+      "name": "6. Zigzag Conversion",
+      "symbolSize": 2,
+      "value": "/mknote/document/leetcode/0006_zigzag_conversion/"
+    },
+    {
+      "id": "30",
+      "name": "7. Reverse Integer",
+      "symbolSize": 2,
+      "value": "/mknote/document/leetcode/0007_reverse_integer/"
+    },
+    {
+      "id": "31",
+      "name": "Leetcode Easy",
+      "symbolSize": 1,
+      "value": "/mknote/document/leetcode/leetcode_easy/"
+    },
+    {
+      "id": "32",
+      "name": "Leetcode Hard",
+      "symbolSize": 0,
+      "value": "/mknote/document/leetcode/leetcode_hard/"
+    },
+    {
+      "id": "33",
+      "name": "Leetcode Medium",
+      "symbolSize": 5,
+      "value": "/mknote/document/leetcode/leetcode_medium/"
+    },
+    {
+      "id": "34",
+      "name": "clang-format",
+      "symbolSize": 3,
+      "value": "/mknote/document/linux/clang-format/"
+    },
+    {
+      "id": "35",
+      "name": "Cmake",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/cmake/"
+    },
+    {
+      "id": "36",
+      "name": "GNU GCC",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/gcc/"
+    },
+    {
+      "id": "37",
+      "name": "GDB Tips",
+      "symbolSize": 2,
+      "value": "/mknote/document/linux/gdb/"
+    },
+    {
+      "id": "38",
+      "name": "Benchmark",
+      "symbolSize": 2,
+      "value": "/mknote/document/linux/linux_benchmark/"
+    },
+    {
+      "id": "39",
+      "name": "perf",
+      "symbolSize": 2,
+      "value": "/mknote/document/linux/perf/"
+    },
+    {
+      "id": "40",
+      "name": "Tmux",
+      "symbolSize": 2,
+      "value": "/mknote/document/linux/tmux/"
+    },
+    {
+      "id": "41",
+      "name": "zsh",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/zsh/"
+    },
+    {
+      "id": "42",
+      "name": "CMake",
+      "symbolSize": 0,
+      "value": "/mknote/document/linux/cmake/cmake/"
+    },
+    {
+      "id": "43",
+      "name": "base",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/git/git_base/"
+    },
+    {
+      "id": "44",
+      "name": "remote",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/git/git_remote/"
+    },
+    {
+      "id": "45",
+      "name": "Block Example",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/mkdocs/mkdocs_code/"
+    },
+    {
+      "id": "46",
+      "name": "Diagram Example",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/mkdocs/mkdocs_diagram/"
+    },
+    {
+      "id": "47",
+      "name": "Emoji",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/mkdocs/mkdocs_emoji/"
+    },
+    {
+      "id": "48",
+      "name": "SOCKS Proxy",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/ssh/socks_proxy/"
+    },
+    {
+      "id": "49",
+      "name": "SSH Settings",
+      "symbolSize": 1,
+      "value": "/mknote/document/linux/ssh/ssh_settings/"
+    },
+    {
+      "id": "50",
+      "name": "Copilot Settings",
+      "symbolSize": 0,
+      "value": "/mknote/document/linux/vim/copilot/"
+    },
+    {
+      "id": "51",
+      "name": "Vim Settings",
+      "symbolSize": 0,
+      "value": "/mknote/document/linux/vim/settings/"
+    },
+    {
+      "id": "52",
+      "name": "Debug Tips for LLVM",
+      "symbolSize": 0,
+      "value": "/mknote/document/llvm/llvm_debug/"
+    },
+    {
+      "id": "53",
+      "name": "Powershell Settings",
+      "symbolSize": 1,
+      "value": "/mknote/document/windows/powershell/"
+    },
+    {
+      "id": "54",
+      "name": "Sysinternals",
+      "symbolSize": 1,
+      "value": "/mknote/document/windows/sysinternals/"
+    },
+    {
+      "id": "55",
+      "name": "WinDbg",
+      "symbolSize": 2,
+      "value": "/mknote/document/windows/windbg/"
+    },
+    {
+      "id": "56",
+      "name": "SSH Settings for Windows",
+      "symbolSize": 1,
+      "value": "/mknote/document/windows/windows_ssh/"
+    },
+    {
+      "id": "57",
+      "name": "Windows Terminal",
+      "symbolSize": 0,
+      "value": "/mknote/document/windows/windows_terminal/"
+    },
+    {
+      "id": "58",
+      "name": "Visual Studio",
+      "symbolSize": 1,
+      "value": "/mknote/document/windows/windows_vs/"
+    },
+    {
+      "id": "59",
+      "name": "Visual Studio Build Tools",
+      "symbolSize": 1,
+      "value": "/mknote/document/windows/windows_vs_build_tools/"
+    },
+    {
+      "id": "60",
+      "name": "WSL",
+      "symbolSize": 1,
+      "value": "/mknote/document/windows/wsl/"
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "source": "0",
+      "target": "5"
+    },
+    {
+      "source": "0",
+      "target": "45"
+    },
+    {
+      "source": "0",
+      "target": "46"
+    },
+    {
+      "source": "0",
+      "target": "47"
+    },
+    {
+      "source": "0",
+      "target": "37"
+    },
+    {
+      "source": "0",
+      "target": "55"
+    },
+    {
+      "source": "0",
+      "target": "38"
+    },
+    {
+      "source": "0",
+      "target": "40"
+    },
+    {
+      "source": "2",
+      "target": "25"
+    },
+    {
+      "source": "2",
+      "target": "26"
+    },
+    {
+      "source": "2",
+      "target": "27"
+    },
+    {
+      "source": "2",
+      "target": "28"
+    },
+    {
+      "source": "2",
+      "target": "29"
+    },
+    {
+      "source": "2",
+      "target": "30"
+    },
+    {
+      "source": "3",
+      "target": "34"
+    },
+    {
+      "source": "3",
+      "target": "35"
+    },
+    {
+      "source": "3",
+      "target": "37"
+    },
+    {
+      "source": "3",
+      "target": "36"
+    },
+    {
+      "source": "3",
+      "target": "39"
+    },
+    {
+      "source": "3",
+      "target": "40"
+    },
+    {
+      "source": "3",
+      "target": "41"
+    },
+    {
+      "source": "5",
+      "target": "60"
+    },
+    {
+      "source": "5",
+      "target": "55"
+    },
+    {
+      "source": "5",
+      "target": "54"
+    },
+    {
+      "source": "5",
+      "target": "56"
+    },
+    {
+      "source": "5",
+      "target": "58"
+    },
+    {
+      "source": "5",
+      "target": "53"
+    },
+    {
+      "source": "5",
+      "target": "59"
+    },
+    {
+      "source": "10",
+      "target": "34"
+    },
+    {
+      "source": "15",
+      "target": "19"
+    },
+    {
+      "source": "15",
+      "target": "20"
+    },
+    {
+      "source": "21",
+      "target": "24"
+    },
+    {
+      "source": "22",
+      "target": "43"
+    },
+    {
+      "source": "22",
+      "target": "44"
+    },
+    {
+      "source": "25",
+      "target": "31"
+    },
+    {
+      "source": "25",
+      "target": "15"
+    },
+    {
+      "source": "25",
+      "target": "19"
+    },
+    {
+      "source": "25",
+      "target": "17"
+    },
+    {
+      "source": "26",
+      "target": "33"
+    },
+    {
+      "source": "26",
+      "target": "18"
+    },
+    {
+      "source": "27",
+      "target": "33"
+    },
+    {
+      "source": "27",
+      "target": "15"
+    },
+    {
+      "source": "28",
+      "target": "33"
+    },
+    {
+      "source": "28",
+      "target": "14"
+    },
+    {
+      "source": "28",
+      "target": "17"
+    },
+    {
+      "source": "28",
+      "target": "16"
+    },
+    {
+      "source": "29",
+      "target": "33"
+    },
+    {
+      "source": "30",
+      "target": "33"
+    },
+    {
+      "source": "34",
+      "target": "22"
+    },
+    {
+      "source": "38",
+      "target": "39"
+    },
+    {
+      "source": "49",
+      "target": "48"
+    }
+  ]
+}
